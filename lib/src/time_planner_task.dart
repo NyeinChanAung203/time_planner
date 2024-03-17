@@ -56,7 +56,10 @@ class TimePlannerTask extends StatelessWidget {
           padding:
               EdgeInsets.only(left: config.horizontalTaskPadding!.toDouble()),
           child: Material(
-            elevation: 3,
+            type: MaterialType.transparency,
+            elevation: 0,
+            color: Colors.transparent,
+            surfaceTintColor: Colors.transparent,
             borderRadius: config.borderRadius,
             child: Stack(
               children: [
